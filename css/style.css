@@ -3,15 +3,17 @@ header {
   font-size: 36px;
 }
 
+/* Styling for the navigation bar
+    todo: -background color
+          -highlight index link
+*/
+
+
 .navigation {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
-/*
-.pictures {
-  height: 100px;
-}*/
 
 .pictures ul {
   display: flex;
@@ -26,5 +28,16 @@ header {
 }
 
 .commentedpic {
-  
+  display: flex;
+  list-style-type: none;
+  width: fit-content;
+}
+
+.form {
+  width: 50%;
+}
+
+.form fieldset{
+  display: grid;
+
 }
