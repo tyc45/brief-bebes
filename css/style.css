@@ -1,19 +1,30 @@
 header {
   font-family: 'Ephesis', cursive;
   font-size: 36px;
-
 }
 
 .navigation {
   display: flex;
   justify-content: space-around;
-}
-
-.navigation li {
   list-style-type: none;
-
 }
+/*
+.pictures {
+  height: 100px;
+}*/
 
 .pictures ul {
   display: flex;
+  list-style-type: none;
+  width: fit-content;
+
+}
+
+.pics {
+  width: 100%;
+  height: auto;
+}
+
+.commentedpic {
+  
 }
