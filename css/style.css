@@ -1,11 +1,17 @@
+/* This is my custom stylesheet for all pages on the website */
+
 body {
   background-color: #63cdda;
+  margin-top: 10%;
 }
 
 header {
   font-family: 'Ephesis', cursive;
   font-size: 36px;
   background-color: #f8a5c2;
+  position:fixed;
+  width: 100%;
+  top:0;
 }
 
 /* Styling for the navigation bar
@@ -27,9 +33,9 @@ header {
 
 .pics {
   width: 100%;
-  flex-grow: 1;
-  /*max-height: 100%;
-  height: auto;*/
+  /*flex-grow: 1;*/
+  max-height: 100%;
+  /*height: auto;*/
 }
 
 .commentedpic {
