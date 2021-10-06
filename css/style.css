@@ -46,11 +46,17 @@ header {
 
 .form {
   width: 50%;
-  background-color:
+  background-color: #cf6a87;
 }
 
 .form fieldset{
   display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+.form h2{
+  color: #303952;
 }
 
 .gallerypics ul {
