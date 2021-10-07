@@ -74,20 +74,30 @@ header {
   /*max-height: 100%;*/
 }
 
+/* This class styles pictures with a text next to them */
+
 .commentedpic {
   display: flex;
-  list-style-type: none;
+  /*justify-content: space-between;*/
   /*width: fit-content;*/
   /*display: grid;
   grid-template: auto / 1fr 1fr 1fr;*/
   /*flex-wrap: wrap;*/
   border-width: thick;
-  border-color: #A63D40;
+  border-color: #91785D;
   border-style: solid;
   border-radius: 1em;
-  background-color: #A63D40;
-/*  border-width: medium;
-border-color: #e77f67;*/
+  background-color: #242423;
+  margin: auto 2em 2em 1em;
+  color: #F4F1BB;
+}
+
+.commentedpic h3{
+  align-self: stretch;
+}
+
+.commentedpic ul{
+  align-self: flex-end;
 }
 
 /*.commentedpic h2, p{
