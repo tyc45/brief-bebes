@@ -23,6 +23,14 @@ header {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  border-width: medium;
+    border-color: #e77f67;
+}
+
+.pictures{
+
+/*  border-width: medium;
+  border-color: #e77f67;*/
 }
 
 .pictures ul {
@@ -41,8 +49,12 @@ header {
 .commentedpic {
   display: flex;
   list-style-type: none;
-  width: fit-content;
+  /*width: fit-content;*/
 }
+
+/*.commentedpic h2, p{
+  float: left;
+}*/
 
 .form {
   width: 50%;
@@ -55,9 +67,9 @@ header {
   padding: 1em;
 }
 
-.form h2{
+/*.form h2{
   color: #303952;
-}
+}*/
 
 .gallerypics ul {
   column-count: 3;
