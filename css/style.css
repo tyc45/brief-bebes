@@ -78,6 +78,7 @@ header {
 
 .commentedpic {
   display: flex;
+    list-style-type: none;
   /*justify-content: space-between;*/
   /*width: fit-content;*/
   /*display: grid;
@@ -90,14 +91,6 @@ header {
   background-color: #242423;
   margin: auto 2em 2em 1em;
   color: #F4F1BB;
-}
-
-.commentedpic h3{
-  align-self: stretch;
-}
-
-.commentedpic ul{
-  align-self: flex-end;
 }
 
 /*.commentedpic h2, p{
@@ -138,4 +131,12 @@ header {
 
 .gallerypics figure{
   margin: 0;
+}
+
+.details{
+  float: left;
+}
+
+.maps{
+
 }
