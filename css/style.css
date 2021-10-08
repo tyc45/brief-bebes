@@ -1,137 +1,158 @@
 /* This is my custom stylesheet for all pages on the website */
 
+/* Styling the background for the website */
+
 body {
   background-color: #F4F1BB;
   margin-top: 10%;
 }
 
+/* Styling the header that'll appear on every pages
+TODO: - Make it less "rectangly"
+- Style the text */
+
 header {
+  background-color: #f8a5c2;
   font-family: 'Ephesis', cursive;
   font-size: 36px;
-  background-color: #f8a5c2;
   position:fixed;
-  width: 100%;
   top:0;
+  width: 100%;
 }
 
 /* Styling for the navigation bar
-    todo: -background color OK!
-          -highlight index link
-          -get a pretty frame
+todo: -background color OK!
+-highlight index link
+-get a pretty frame
 */
 
 .navigation {
+  border-color: #e77f67;
+  /*border-width: medium;*/
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  /*border-width: medium;*/
-    border-color: #e77f67;
 }
+
+/* Styling for the homepage mini galleries */
 
 .pictures{
 
-    list-style-type: none;
-    /*display: grid;
-    grid-template: auto / 1fr 1fr 1fr;*/
-    display: flex;
-    justify-content: space-evenly;
-    /*flex-wrap: wrap;*/
-    border-width: thick;
-    border-color: #A63D40;
-    border-style: solid;
-    border-radius: 1em;
-    background-color: #A63D40;
-/*  border-width: medium;
-  border-color: #e77f67;*/
+  background-color: #A63D40;
+  border-color: #A63D40;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: thick;
+  display: flex;
+  /*display: grid;
+  /*flex-wrap: wrap;*/
+  grid-template: auto / 1fr 1fr 1fr;*/
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
-.pictures figure{
-    margin: 0;
+/* Reseting the figure element's margin */
+
+figure{
+  margin: 0;
 }
 
 /*.pictures ul {
-  list-style-type: none;
-  display: grid;
-  grid-template: auto / 1fr 1fr 1fr;
-  border-width: thick;
-  border-color: brown;
-  border-style: solid;
-  border-radius: 1em;
-  clip-path: inset(0 0 0% 0);
-    /*display: flex;*/
-  /*width: fit-content;}*/
+list-style-type: none;
+display: grid;
+grid-template: auto / 1fr 1fr 1fr;
+border-width: thick;
+border-color: brown;
+border-style: solid;
+border-radius: 1em;
+clip-path: inset(0 0 0% 0);
+/*display: flex;*/
+/*width: fit-content;}*/
 
-.pictures img{
-  border-radius: 0.5em 0.5em 0.5em 0.5em;
-}
-
-
-.pics {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5em 0.5em 0.5em 0.5em;
-  /*flex-grow: 1;*/
-  /*max-height: 100%;*/
-}
-
-/* This class styles pictures with a text next to them */
-
-.commentedpic {
-  display: flex;
-    list-style-type: none;
-  /*justify-content: space-between;*/
-  /*width: fit-content;*/
-  /*display: grid;
-  grid-template: auto / 1fr 1fr 1fr;*/
-  /*flex-wrap: wrap;*/
-  border-width: thick;
-  border-color: #91785D;
-  border-style: solid;
-  border-radius: 1em;
-  background-color: #242423;
-  margin: auto 2em 2em 1em;
-  color: #F4F1BB;
-}
-
-/*.commentedpic h2, p{
-  float: left;
+/*.pictures img{
+border-radius: 0.5em 0.5em 0.5em 0.5em;
 }*/
 
-.form {
-  width: 50%;
-  background-color: #9ED0E6;
+/* The class that styles most pictures across the website */
+
+.pics {
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  height: 100%;
+  width: 100%;
 }
 
-.form fieldset{
+/* TODO: Style h2s */
+
+h2{
+
+}
+
+.mailme {
+  background-color: #9ED0E6;
+  width: 50%;
+}
+
+.mailme fieldset{
   display: grid;
   grid-gap: 1em;
   padding: 1em;
 }
 
 /*.form h2{
-  color: #303952;
+color: #303952;
 }*/
 
+
+/* The class that styles the section containing the gallery's pictures*/
+
 .gallerypics {
-  column-count: 3;
+  background-color: #A63D40;
+  border-color: #A63D40;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: thick;
+  /*column-count: 3;*/
   column-gap: 0.5em;
+  display: grid;
+  grid-template-areas:"a b c";
   list-style-type: none;
-  width: fit-content;
-  /*display: grid;
-  grid-template: auto / 1fr 1fr 1fr;*/
-/*  display: flex;
+  row-gap: 0.5em;
+
+  /*grid-template: auto / 1fr 1fr 1fr;*/
+  /*  display: flex;
   justify-content: space-evenly;*/
   /*flex-wrap: wrap;*/
-  border-width: thick;
-  border-color: #A63D40;
-  border-style: solid;
-  border-radius: 1em;
-  background-color: #A63D40;
+  /*width: fit-content;*/
 }
 
-.gallerypics figure{
-  margin: 0;
+
+/* This class styles pictures with a text next to them
+    TODO: - Give a margin to the text
+          - Get the ul bellow the h3
+          */
+
+.commentedpic {
+  background-color: #242423;
+  border-color: #91785D;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: thick;
+  color: #F4F1BB;
+  display: flex;
+  list-style-type: none;
+  margin: auto 2em 2em 1em;
+  /*justify-content: space-between;*/
+  /*width: fit-content;*/
+  /*display: grid;
+  grid-template: auto / 1fr 1fr 1fr;*/
+  /*flex-wrap: wrap;*/
 }
+
+/*.commentedpic h2, p{
+float: left;
+}*/
+
+/* This class styles the details from the join me section */
 
 .details{
   float: left;
