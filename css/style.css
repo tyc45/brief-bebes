@@ -96,18 +96,20 @@ border-radius: 0.5em 0.5em 0.5em 0.5em;
   margin: auto 2em 2em 1em;
 }
 
-.pricesdescription{
+
+.photographerintro, .pricesdescription{
   margin: 0 5% 0 5%;
 
 }
 
-.pricesdescription h3{
-  font-size: 3rem;
-margin: 0;
+.photographerintro h3{
+  font-size: 2rem;
 }
 
-
-/* TODO: Style h2s */
+.pricesdescription h3{
+  font-size: 3rem;
+  margin: 0;
+}
 
 
 .mailme {
@@ -120,10 +122,6 @@ margin: 0;
   grid-gap: 1em;
   padding: 1em;
 }
-
-/*.form h2{
-color: #303952;
-}*/
 
 /* The class that styles text used for filling */
 
