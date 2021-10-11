@@ -83,9 +83,6 @@ border-radius: 0.5em 0.5em 0.5em 0.5em;
 
 /* TODO: Style h2s */
 
-h2{
-
-}
 
 .mailme {
   background-color: #9ED0E6;
@@ -101,6 +98,19 @@ h2{
 /*.form h2{
 color: #303952;
 }*/
+
+/* The class that styles text used for filling */
+
+.fillertext{
+  margin: 0 5% 0 5%;
+}
+
+.fillertext h2{
+  color: #433E3F;
+  text-align: center;
+  text-decoration: underline;
+}
+
 
 
 /* The class that styles the section containing the gallery's pictures*/
