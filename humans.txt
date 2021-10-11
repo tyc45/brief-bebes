@@ -1,13 +1,14 @@
-# humanstxt.org/
 # The humans responsible & technology colophon
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Developer: Jordan Tyczynski
+    Twitter @JordanTyczynski
 
 # THANKS
 
-    <name>
+    Simplon.co
+    Programme Regionnal de Formation Hauts-de-France
 
 # TECHNOLOGY COLOPHON
 

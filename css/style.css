@@ -152,7 +152,7 @@ figure{
 
 /* Styling for the details from the join me section */
 
-.details{
+.whereami{
   display: flex;
   justify-content: space-around;
   font-size: 1.5rem;
