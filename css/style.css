@@ -81,6 +81,32 @@ border-radius: 0.5em 0.5em 0.5em 0.5em;
   width: 100%;
 }
 
+
+/* This class styles pictures with a text next to them */
+
+.commentedpic {
+  background-color: #242423;
+  border-color: #91785D;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: thick;
+  color: #F4F1BB;
+  display: flex;
+  list-style-type: none;
+  margin: auto 2em 2em 1em;
+}
+
+.pricesdescription{
+  margin: 0 5% 0 5%;
+
+}
+
+.pricesdescription h3{
+  font-size: 3rem;
+margin: 0;
+}
+
+
 /* TODO: Style h2s */
 
 
@@ -136,31 +162,6 @@ color: #303952;
 }
 
 
-/* This class styles pictures with a text next to them
-    TODO: - Give a margin to the text
-          - Get the ul bellow the h3
-          */
-
-.commentedpic {
-  background-color: #242423;
-  border-color: #91785D;
-  border-radius: 1em;
-  border-style: solid;
-  border-width: thick;
-  color: #F4F1BB;
-  display: flex;
-  list-style-type: none;
-  margin: auto 2em 2em 1em;
-  /*justify-content: space-between;*/
-  /*width: fit-content;*/
-  /*display: grid;
-  grid-template: auto / 1fr 1fr 1fr;*/
-  /*flex-wrap: wrap;*/
-}
-
-/*.commentedpic h2, p{
-float: left;
-}*/
 
 /* This class styles the details from the join me section */
 
