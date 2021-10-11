@@ -1,4 +1,4 @@
-#3rd brief for the Web Developper class at Simplon.co
+# 3rd brief for the Web Developper class at Simplon.co
 
 
 This is a sample showcase website made using only HTML and CSS made for the sake of exercising the basics of HTML and CSS.
